@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     db.setHostName("127.0.0.1");
     db.setDatabaseName("chatroom");
     db.setUserName("root");
-    db.setPassword("541536638yy.");
+    db.setPassword("***********");
     bool ok = db.open();
     if(!ok){
         QMessageBox::warning(this,"警告","无法连接数据库");

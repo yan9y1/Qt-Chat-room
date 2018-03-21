@@ -20,7 +20,7 @@ login::login(QWidget *parent) :
     db.setHostName("127.0.0.1");
     db.setDatabaseName("chatroom");
     db.setUserName("root");
-    db.setPassword("541536638yy.");
+    db.setPassword("**********");
     bool ok = db.open();
     if(ok){
         qDebug()<<"成功连接数据库";
